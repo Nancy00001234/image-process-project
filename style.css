@@ -1,0 +1,44 @@
+body {
+  background-color: AntiqueWhite; margin: 15px 20px 15px 20px; font-family: Georgia; border:1px solid brown; border-radius: 20px; padding-left: 22px; padding-right: 20px; padding-bottom: 15px;
+}
+
+h1 {
+  text-align: center;
+  color: brown;
+}
+
+.exp {font-size: 13pt;}
+#fun {font-size: 14pt;}
+
+/*set margins between 2 algorithms*/
+#filter {margin-bottom:40px;}
+#greenscreen {margin-bottom:20px;}
+
+#choosefilter {
+  background-color: rgba(181,172,149,0.3);
+  padding: 0.5px 10px 2px 10px;
+  border-radius: 10px;
+  border:1px solid brown;
+}
+#loadImg {
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+canvas {
+  border: 1.5px solid #c3c3c3; background-color: white;
+}
+
+input {
+  font-size: 12pt;
+}
+
+.sizetxt {
+  font-family: Arial;
+  font-weight: bold;
+  color: DarkRed; 
+  font-size: 14pt;
+}
+
+#fgcan {height: 180px;}
+#bgcan {height: 180px;}
