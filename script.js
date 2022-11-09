@@ -36,7 +36,7 @@ function imageIsLoaded(image) {
 function reset() {
   if ( imageIsLoaded(imgO) ) {
     canvas.style.filter = "none";
-    imgO = new SimpleImage(fileinput);//不重新加载一次的话，reset的时候经常出问题，说明imgO的值变化了，原因未知（？）
+    imgO = new SimpleImage(fileinput);
     imgO.drawTo(canvas);
     grayimg = imgO;//reset all global variables for filter images to the original image
     redimg = imgO;//同上
@@ -212,7 +212,7 @@ function doBlur() {
   if ( imageIsLoaded(imgO) ) {
     var blurimg = new SimpleImage(imgModif.getWidth(), imgModif.getHeight());
     for (var pixel of imgModif.values()) {
-      var num_judge = Math.random();//num_judge用来判断是否blur
+      var num_judge = Math.random();//num_judge: judge whether to apply blur
       var x = pixel.getX();
       var y = pixel.getY();
       if (num_judge < 0.5) {//whether the pixel needs change
@@ -308,7 +308,7 @@ function doGreenScreen() {
       output.setPixel(x,y,pixel);
     }
   }
-  //clearCanvas();放在这里也可以，前面也可以
+  //clearCanvas();
   output.drawTo(fgcanvas);
 }
 
