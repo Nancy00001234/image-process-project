@@ -1,6 +1,6 @@
 # Image Processing Web Page  
-.<img src="https://user-images.githubusercontent.com/104662491/207836101-2d2869d3-c509-4ae4-a517-71a68de4d176.png" width="220" height="330" />
-.<img src="https://user-images.githubusercontent.com/104662491/207835913-27a5ebc9-5d2e-428c-9642-a230d90122ea.png" width="550" height="330" />
+.<img src="https://user-images.githubusercontent.com/104662491/207836101-2d2869d3-c509-4ae4-a517-71a68de4d176.png" width="200" height="280" />
+.<img src="https://user-images.githubusercontent.com/104662491/207835913-27a5ebc9-5d2e-428c-9642-a230d90122ea.png" width="480" height="280" />
 
 ## Description
 This webpage was implement using **JavaScript, HTML, and CSS**:
