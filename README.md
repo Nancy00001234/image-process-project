@@ -6,8 +6,8 @@
 This webpage was implemented using **JavaScript, HTML, and CSS**:
 - Filters  
   - Upload an image and choose its size (Width: 300 - 600px) 
-  - Apply color filters, axisymmetric transformation, blurring effects
-  - Reset image to remove existing effects or clear the canvas     
+  - Apply color filters, axisymmetric transformation, and blurring effects
+  - Reset the image to remove existing effects or clear the canvas     
 - Green Screen Algorithm  
   - Upload images and automatically standardize their size(even if you don't click Unify Size)
   - Replace the background of a greenscreen image with any image you like   
