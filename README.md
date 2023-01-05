@@ -3,18 +3,18 @@
 .<img src="https://user-images.githubusercontent.com/104662491/207835913-27a5ebc9-5d2e-428c-9642-a230d90122ea.png" width="480" height="280" />
 
 ## Description
-This webpage was implement using **JavaScript, HTML, and CSS**:
+This webpage was implemented using **JavaScript, HTML, and CSS**:
 - Filters  
   - Upload an image and choose its size (Width: 300 - 600px) 
-  - Apply color filters, axisymmetric transformation, blurring
-  - Reset image for trying other filters or clear the canvas     
+  - Apply color filters, axisymmetric transformation, blurring effects
+  - Reset image to remove existing effects or clear the canvas     
 - Green Screen Algorithm  
-  - Upload images and automatically unify their size(even if you don't click Unify Size)
-  - Replace the background of a greenscreen image with another image    
+  - Upload images and automatically standardize their size(even if you don't click Unify Size)
+  - Replace the background of a greenscreen image with any image you like   
 
 ## Test it
-Clone or download (and unzip) the repository, and click index.html.  
-To add filters(for example, add Grayscale, Blur, and Mirror together): 
+Clone or download (and unzip) the repository, and double-click index.html.   
+To add filters(for example, add Grayscale, Blur, and Mirror together), click the appropriate buttons:
 
 .<img src="https://user-images.githubusercontent.com/104662491/207828537-c5eaeaae-c412-48c3-ab24-a6d81d58653a.png" width="485" height="300" />
 .<img src="https://user-images.githubusercontent.com/104662491/207830199-ec516b1d-fd4a-460e-9d72-06453cfcfcb7.png" width="485" height="300" />
